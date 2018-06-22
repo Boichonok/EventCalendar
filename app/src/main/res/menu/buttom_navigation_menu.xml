@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id = "@+id/currentDaySchedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_current_schedule"
+        android:title="Schedule"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id = "@+id/createSchedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_create_schedule"
+        android:title="Create Schedule"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id = "@+id/scheduleList"
+        android:enabled="true"
+        android:icon="@drawable/ic_schedule_list"
+        android:title="Schedule List"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id = "@+id/map"
+        android:enabled="true"
+        android:icon="@drawable/ic_map"
+        android:title="Map"
+        app:showAsAction="ifRoom" />
+
+</menu>
